@@ -1,0 +1,22 @@
+# rc file explained: https://www.nano-editor.org/dist/v4/nanorc.5.html
+# (feel free to set mouse if you're using a x server. just sucks over ssh term)
+
+set tabsize 4
+unset tabstospaces
+set smooth
+unset mouse
+set autoindent
+unset constantshow
+set fill 72
+set historylog
+set multibuffer
+set nohelp
+set positionlog
+set quickblank
+set regexp
+set smarthome
+set suspendable
+
+# nano homepage: https://nano-editor.org/download.php
+# build nano and install (use / for prefix on ec2, not /usr): http://www.linuxfromscratch.org/blfs/view/svn/postlfs/nano.html
+# lots of syntax higlighing files: https://github.com/scopatz/nanorc
